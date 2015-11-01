@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\io">
+      <UniqueIdentifier>{0feffa3d-b98e-4223-af9e-f476965a7856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\net">
+      <UniqueIdentifier>{c0b76853-01ce-4c26-b311-2467b97c1f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sql">
+      <UniqueIdentifier>{85a2ada3-5f17-489c-90ee-f9d764d83a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\time">
+      <UniqueIdentifier>{6b4a1247-6b02-4466-abc4-4bfe2d4093be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utility">
+      <UniqueIdentifier>{b9b2ae37-a0be-473c-ae7d-5d0633d804f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\io">
+      <UniqueIdentifier>{3a761bbf-c687-43a0-8b79-39d4fc30a52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\net">
+      <UniqueIdentifier>{21646eed-7b49-4ed1-be8a-ad0bc41bbb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sql">
+      <UniqueIdentifier>{62323eae-3ee6-4585-ab70-4c44d3de5423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\time">
+      <UniqueIdentifier>{a0e426f2-9954-460d-ab67-aa22bf557982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utility">
+      <UniqueIdentifier>{163aa874-9859-4881-a92e-d862042601d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\io\CsvFile.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\File.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\FileDirPt.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\FileDistribute.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\FileWriteMap.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\iostream.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\KtvDoCmd.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\PCMAudio.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\WFileRead.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\DynamicData.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\FileCurlDistribute.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\KTVOFtp.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\lharp.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\smtpmail.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\Socket.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\SocketPool.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\TCP.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\TCPAD.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\TelNet.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net\zmqclient.h">
+      <Filter>头文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\Config.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\Logger.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\memman.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\Pinyin.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\PinyinAll.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\Romaji.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\strMatch.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\Transcode.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\Utility.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\time\Timer.h">
+      <Filter>头文件\time</Filter>
+    </ClInclude>
+    <ClInclude Include="include\time\wheeltimer.h">
+      <Filter>头文件\time</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sql\MySQL.h">
+      <Filter>头文件\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crashdump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ThreadW1Rn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\io\Convertion.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\File.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\FileWriteMap.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\iostream.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\KtvDoCmd.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\PCMAudio.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\crashdump.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\FileCurlDistribute.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\KTVOFtp.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\smtpmail.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\Socket.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\SocketPool.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\TCP.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\TCPAD.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\TelNet.cpp">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Config.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Logger.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\memman.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Pinyin.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\PinyinAll.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Romaji.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Transcode.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Utility.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\time\Timer.cpp">
+      <Filter>源文件\time</Filter>
+    </ClCompile>
+    <ClCompile Include="src\time\wheeltimer.cpp">
+      <Filter>源文件\time</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql\MySQL.cpp">
+      <Filter>源文件\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exception.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MD5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

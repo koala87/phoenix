@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\db">
+      <UniqueIdentifier>{66b680fb-6987-41f6-8cd1-d5f266712470}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AdUrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Balancer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoxData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoxInfoMan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoxProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CloudConnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigConnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Database.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dongle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ERPProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ERPRole.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FireWarn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameReward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameReward2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameTimer2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InfoConnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InitProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVChallenge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVCloud.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVKGame2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVLua.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KtvMicrophoneService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVMPG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVPCM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTVStorage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogDelayUpload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MediaConnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MediaModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MessageRule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MultiScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Packet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PacketHeart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PacketManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PacketProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ServerCrash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Volume.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\KTVKGame2.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AdUrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AppProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Balancer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoxData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoxInfoMan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoxProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dongle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ERPProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ERPRole.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FireWarn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameReward.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameReward2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InitProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVChallenge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVCloud.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVConnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVLua.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KtvMicrophoneService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVMPG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVPCM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KTVTimerPlan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LogDelayUpLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MessageRule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MultiScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Packet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PacketHeart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PacketManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PacketProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ServerCrash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ServerDebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Volume.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\CloudConnector.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\ConfigConnector.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\ConfigModel.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\Database.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\DatabaseException.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\Definition.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\GameModel.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\GameTimer2.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\InfoConnector.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\MediaConnector.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="include\db\MediaModel.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

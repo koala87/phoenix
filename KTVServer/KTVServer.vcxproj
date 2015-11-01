@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB84BF17-E9C3-444C-8C84-FC548342DF15}</ProjectGuid>
+    <RootNamespace>KTVServer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\Bin\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\Bin\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(Configuration)\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(SolutionDir)\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)\Include;$(SolutionDir)\Generic\include;$(SolutionDir)\$(ProjectName)\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>$(SolutionDir)\Lib;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSdkDir)lib\x64;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)\Include;$(SolutionDir)\Generic\include;$(SolutionDir)\$(ProjectName)\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(SolutionDir)\Lib;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSdkDir)lib\x64;</LibraryPath>
+    <OutDir>$(SolutionDir)\Bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Generic.lib;AACDecoder.lib;AudioMixing.lib;oftpd.lib;Convertion.lib;zlib.lib;libcurl.lib;ssleay32.lib;libeay32.lib;dbghelp.lib;liblua.lib;winmm.lib;lib_json.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Generic.lib;AACDecoder.lib;AudioMixing.lib;oftpd.lib;Convertion.lib;zlib.lib;libcurl.lib;ssleay32.lib;libeay32.lib;dbghelp.lib;liblua.lib;winmm.lib;lib_json.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AdUrl.cpp" />
+    <ClCompile Include="src\AppProcessor.cpp" />
+    <ClCompile Include="src\Balancer.cpp" />
+    <ClCompile Include="src\BoxData.cpp" />
+    <ClCompile Include="src\BoxInfoMan.cpp" />
+    <ClCompile Include="src\BoxProcessor.cpp" />
+    <ClCompile Include="src\CloudConnector.cpp" />
+    <ClCompile Include="src\ConfigConnector.cpp" />
+    <ClCompile Include="src\Connection.cpp" />
+    <ClCompile Include="src\Database.cpp" />
+    <ClCompile Include="src\Dongle.cpp" />
+    <ClCompile Include="src\ERPProcessor.cpp" />
+    <ClCompile Include="src\ERPRole.cpp" />
+    <ClCompile Include="src\FireWarn.cpp" />
+    <ClCompile Include="src\GameReward.cpp" />
+    <ClCompile Include="src\GameReward2.cpp" />
+    <ClCompile Include="src\GameTimer.cpp" />
+    <ClCompile Include="src\GameTimer2.cpp" />
+    <ClCompile Include="src\InfoConnector.cpp" />
+    <ClCompile Include="src\InitProcessor.cpp" />
+    <ClCompile Include="src\KTVChallenge.cpp" />
+    <ClCompile Include="src\KTVCloud.cpp" />
+    <ClCompile Include="src\KTVKGame2.cpp" />
+    <ClCompile Include="src\KTVLua.cpp" />
+    <ClCompile Include="src\KtvMicrophoneService.cpp" />
+    <ClCompile Include="src\KTVMPG.cpp" />
+    <ClCompile Include="src\KTVPCM.cpp" />
+    <ClCompile Include="src\KTVServer.cpp" />
+    <ClCompile Include="src\KTVStorage.cpp" />
+    <ClCompile Include="src\LogDelayUpload.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MediaConnector.cpp" />
+    <ClCompile Include="src\MediaModel.cpp" />
+    <ClCompile Include="src\MessageRule.cpp" />
+    <ClCompile Include="src\MultiScreen.cpp" />
+    <ClCompile Include="src\Packet.cpp" />
+    <ClCompile Include="src\PacketHeart.cpp" />
+    <ClCompile Include="src\PacketManager.cpp" />
+    <ClCompile Include="src\PacketProcessor.cpp" />
+    <ClCompile Include="src\ServerCrash.cpp" />
+    <ClCompile Include="src\Volume.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AdUrl.h" />
+    <ClInclude Include="include\AppProcessor.h" />
+    <ClInclude Include="include\Balancer.h" />
+    <ClInclude Include="include\BoxData.h" />
+    <ClInclude Include="include\BoxInfoMan.h" />
+    <ClInclude Include="include\BoxProcessor.h" />
+    <ClInclude Include="include\Connection.h" />
+    <ClInclude Include="include\db\CloudConnector.h" />
+    <ClInclude Include="include\db\ConfigConnector.h" />
+    <ClInclude Include="include\db\ConfigModel.h" />
+    <ClInclude Include="include\db\Database.h" />
+    <ClInclude Include="include\db\DatabaseException.h" />
+    <ClInclude Include="include\db\Definition.h" />
+    <ClInclude Include="include\db\GameModel.h" />
+    <ClInclude Include="include\db\GameTimer2.h" />
+    <ClInclude Include="include\db\InfoConnector.h" />
+    <ClInclude Include="include\db\MediaConnector.h" />
+    <ClInclude Include="include\db\MediaModel.h" />
+    <ClInclude Include="include\Dongle.h" />
+    <ClInclude Include="include\ERPProcessor.h" />
+    <ClInclude Include="include\ERPRole.h" />
+    <ClInclude Include="include\FireWarn.h" />
+    <ClInclude Include="include\GameReward.h" />
+    <ClInclude Include="include\GameReward2.h" />
+    <ClInclude Include="include\GameTimer.h" />
+    <ClInclude Include="include\InitProcessor.h" />
+    <ClInclude Include="include\KTVChallenge.h" />
+    <ClInclude Include="include\KTVCloud.h" />
+    <ClInclude Include="include\KTVConnection.h" />
+    <ClInclude Include="include\KTVLua.h" />
+    <ClInclude Include="include\KtvMicrophoneService.h" />
+    <ClInclude Include="include\KTVMPG.h" />
+    <ClInclude Include="include\KTVPCM.h" />
+    <ClInclude Include="include\KTVServer.h" />
+    <ClInclude Include="include\KTVStorage.h" />
+    <ClInclude Include="include\KTVTimerPlan.h" />
+    <ClInclude Include="include\LogDelayUpLoad.h" />
+    <ClInclude Include="include\MessageRule.h" />
+    <ClInclude Include="include\MultiScreen.h" />
+    <ClInclude Include="include\Packet.h" />
+    <ClInclude Include="include\PacketHeart.h" />
+    <ClInclude Include="include\PacketManager.h" />
+    <ClInclude Include="include\PacketProcessor.h" />
+    <ClInclude Include="include\ServerCrash.h" />
+    <ClInclude Include="include\ServerDebug.h" />
+    <ClInclude Include="include\Volume.h" />
+    <ClInclude Include="src\KTVKGame2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
